@@ -7,8 +7,8 @@ class Solution:
         lst = [str(i) for i in digits]
         s = ''
         for i in lst:
-            s+=''.join(i)
-        n = int(s)+1
+            s += i
+        n = int(s) + 1
         n = str(n)
         temp = []
         for i in n:
