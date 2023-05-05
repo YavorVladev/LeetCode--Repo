@@ -17,6 +17,23 @@ class Solution:
         return r
 
 
+                                     # Different Solution
+    
+
+# class Solution:
+#     def plusOne(self, digits: List[int]) -> List[int]:
+#         carry = 1
+#         for i in range(len(digits) - 1, -1, -1):
+#             digits[i] += carry
+#             carry = digits[i] // 10
+#             digits[i] %= 10
+#             if not carry:
+#                 break
+#         if carry:
+#             digits.insert(0, carry)
+#         return digits
+
+
 sol = Solution()
 numbers = [9]
 result = sol.plusOne(numbers)
