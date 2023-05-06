@@ -18,7 +18,7 @@ class Solution:
 
 
                                      # Different Solution
-    
+
 
 # class Solution:
 #     def plusOne(self, digits: List[int]) -> List[int]:
