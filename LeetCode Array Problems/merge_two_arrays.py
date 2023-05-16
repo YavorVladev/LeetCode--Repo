@@ -31,5 +31,7 @@ class Solution:
 
             write_index -= 1
 
+            # Time Complexity: O(m + n)
+
 
 
