@@ -31,3 +31,10 @@ class Solution:
             k %= factorial
 
         return result
+
+
+sol = Solution()
+number = 3
+exact_permutation = 6
+result = sol.getPermutation(number, exact_permutation)
+print(result)
