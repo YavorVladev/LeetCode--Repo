@@ -37,3 +37,5 @@ sol = Solution()
 words = ["flower", "flow", "flight"]
 result = sol.longestCommonPrefix(words)
 print(result)
+
+# Time complexity of O(n)
