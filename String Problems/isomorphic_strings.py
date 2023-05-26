@@ -23,5 +23,7 @@ class Solution(object):
         if map1 == map2:
             return True
         return False
+    
+    
 
 
