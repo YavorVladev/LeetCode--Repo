@@ -34,3 +34,5 @@ ransom = "aa"
 mag = "ab"
 res = sol.canConstruct(ransom, mag)
 print(res)
+
+# Time complexity O(n)
