@@ -38,6 +38,21 @@ class Solution:
         return ans
 
 
+# class Solution:
+#     def titleToNumber(self, columnTitle: str) -> int:
+#         data = {"A": 1, "B": 2, ...... "Z": 26}
+#
+#         n = len(data) - 1
+#         answer = 0
+#
+#         for letter in (columnTitle):
+#             letter = data[letter] * 26 ** n
+#             n -= 1
+#             answer += letter
+#
+#         return answer
+
+
 sol = Solution()
 columnTitle = "A"
 result = sol.titleToNumber(columnTitle)
