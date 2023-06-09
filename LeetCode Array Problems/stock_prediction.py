@@ -37,6 +37,11 @@ class Solution:
 #
 #         return max_profit
 
+
+
+# def maxProfit(self, prices: list[int]) -> int:
+#     return max(j - k for j, k in zip(prices, accumulate(prices, min)))
+
 sol = Solution()
 stocks = [2, 4, 1]
 res = sol.maxProfit(stocks)
