@@ -29,3 +29,5 @@ class Solution:
         head.next, newHead.next = self.swapPairs(head.next.next), head
 
         return newHead
+
+    # Time Complexity O(n)
