@@ -22,8 +22,7 @@
 
 class Solution:
     def swapPairs(self, head):
-
-        if not(head and head.next): return head
+        if not (head and head.next): return head
 
         newHead = head.next
         head.next, newHead.next = self.swapPairs(head.next.next), head
@@ -31,3 +30,9 @@ class Solution:
         return newHead
 
     # Time Complexity O(n)
+
+
+sol = Solution()
+nodes = [1, 2, 3, 4]
+res = sol.swapPairs(nodes)
+print(res)
