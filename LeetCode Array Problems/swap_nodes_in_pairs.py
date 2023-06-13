@@ -36,3 +36,4 @@ sol = Solution()
 nodes = [1, 2, 3, 4]
 res = sol.swapPairs(nodes)
 print(res)
+
