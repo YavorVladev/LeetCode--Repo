@@ -23,6 +23,8 @@ class Solution:
 
         return ''.join(s)
 
+    # Time Complexity O(n^2)
+
 
 sol = Solution()
 t = 'hello'
