@@ -20,3 +20,5 @@ sol = Solution()
 our_grid = [[4, 3, 2, -1], [3, 2, 1, -1], [1, 1, -1, -2], [-1, -1, -2, -3]]
 res = sol.countNegatives(our_grid)
 print(res)
+
+# Time complexity O(n^2)
