@@ -33,6 +33,7 @@ class Solution:
 sol = Solution()
 cor = [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
 # cor = [[1, 2], [2, 4], [4, 6], [4, 5], [5, 6], [6, 7]]
+# cor = [[1, 2], [2, 5], [7, 8], [9, 9], [5, 6], [6, 7]]
 res = sol.checkStraightLine(cor)
 print(res)
 
