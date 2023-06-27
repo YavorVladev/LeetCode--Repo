@@ -21,3 +21,5 @@ class Solution(object):
 
         return [i + 1 for i in range(len(nums)) if nums[i] > 0]
 
+    # Time complexity O(n)
+
