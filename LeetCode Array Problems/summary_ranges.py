@@ -38,3 +38,5 @@ class Solution:
                 res.append(f'{nums[s]}->{nums[e]}')
             i = e + 1
         return res
+
+#     Time Complexity O(n)
