@@ -51,3 +51,5 @@ class Solution(object):
                 for item in threeResult:
                     results.append([nums[i]] + item)
         return results
+
+#     Time Complexity O(n)
