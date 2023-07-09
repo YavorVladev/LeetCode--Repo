@@ -15,3 +15,5 @@ sol = Solution()
 root = [3, 9, 20, None, None, 15, 7]
 res = sol.isBalanced(root)
 print(res)
+
+# Time Complexity O(n)
