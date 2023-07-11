@@ -23,4 +23,6 @@ class Solution:
                 res *= x
             x *= x
             n //= 2
-        return res
+        return
+
+    #     Time complexity O(n)
