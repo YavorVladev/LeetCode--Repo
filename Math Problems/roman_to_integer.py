@@ -28,6 +28,7 @@ class Solution:
             number += translations[char]
         return number
 
+    # Time Complexity O(n)
 
 
 sol = Solution()
