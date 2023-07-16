@@ -52,4 +52,11 @@ class Solution(object):
                     results.append([nums[i]] + item)
         return results
 
+
 #     Time Complexity O(n)
+
+sol = Solution()
+nums = [2, 2, 2, 2, 2]
+target = 8
+res = sol.threeSum(nums, target)
+print(res)
