@@ -22,3 +22,5 @@ for _ in range(n):
         print(f"{word[0]}{b_number}{word[-1]}")
     else:
         print(word)
+
+        # Time Complexity O(n)
