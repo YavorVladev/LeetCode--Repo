@@ -18,3 +18,5 @@ board = m * n
 
 dominos = board // 2
 print(dominos)
+
+# Time Complexity O(1)
