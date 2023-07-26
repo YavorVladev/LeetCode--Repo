@@ -33,3 +33,5 @@ class Solution:
                     curr_len = i - stack[len(stack) - 1]
                     max_len = max(curr_len, max_len)
         return max_len
+
+#     Time Complexity O(n)
