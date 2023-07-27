@@ -32,7 +32,7 @@ class Solution:
 
 
 sol = Solution()
-a = '11'
-b = '1'
+a = '1010'
+b = '1011'
 res = sol.addBinary(a, b)
 print(res)
