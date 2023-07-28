@@ -31,6 +31,7 @@ class Solution:
         return ''.join(reversed(s))
 
 
+# Time Complexity O(n) - n being the longest len of the string.
 sol = Solution()
 a = '1010'
 b = '1011'
