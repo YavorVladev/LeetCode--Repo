@@ -10,6 +10,8 @@ class Solution:
         else:
             return num % 9
 
+#         Time Complexity O(1)
+
 
 sol = Solution()
 n = 38
