@@ -14,6 +14,8 @@ class Solution:
 
         return myGuess
 
+#       Time Complexity O(log n)
+
 
 
 
