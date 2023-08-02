@@ -37,3 +37,5 @@ class Solution:
             return 0
         # enclose input with brackets and call helper
         return helper('(' + expression + ')', 0)[0]
+
+#     Time Complexity O(n)
