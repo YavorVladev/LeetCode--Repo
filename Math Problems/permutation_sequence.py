@@ -32,6 +32,8 @@ class Solution:
 
         return result
 
+#     Time Complexity O(n)
+
 
 sol = Solution()
 number = 3
