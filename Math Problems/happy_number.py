@@ -37,6 +37,8 @@ class Solution:
         else:
             return True
 
+#         Time Complexity O(n)
+
 
 sol = Solution()
 number = 4
