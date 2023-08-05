@@ -17,3 +17,5 @@ class Solution:
 #             x //= 10
 #         return rev == orig
 
+# Time Complexity O(1)
+
