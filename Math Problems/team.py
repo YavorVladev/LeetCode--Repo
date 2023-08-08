@@ -28,6 +28,7 @@ for _ in range(n):
 
     if sum(all_p) >= len(all_p) / 2:
         c += 1
+#         Time Complexity O(1)
 
 print(c)
 
