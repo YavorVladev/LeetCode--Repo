@@ -33,6 +33,8 @@ class Solution:
 
         return climb(n)
 
+                                # Time complexity O(n)
+
                                 # Different Solution - Simplified
 
 #     def climbStairs(n: int) -> int:
