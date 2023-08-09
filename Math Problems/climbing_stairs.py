@@ -33,7 +33,7 @@ class Solution:
 
         return climb(n)
 
-                                # Time Complexity O(n)
+                                # Time complexity O(n)
 
                                 # Different Solution - Simplified
 
