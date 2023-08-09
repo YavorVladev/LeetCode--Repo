@@ -27,4 +27,6 @@ score_k = p[k - 1]
 
 a = [x for x in p if x >= score_k and x > 0]
 
+# Time Complexity O(n)
+
 print(len(a))
