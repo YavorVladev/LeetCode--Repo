@@ -15,6 +15,8 @@ def quadratic_solver(a, b, c):
 
     return "no roots"
 
+# Time Complexity O(1)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
