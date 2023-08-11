@@ -29,6 +29,7 @@ class Solution:
             return True
 
 
+# Time Complexity O(n)
 sol = Solution()
 ransom = "aa"
 mag = "ab"
