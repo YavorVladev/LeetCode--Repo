@@ -24,6 +24,7 @@ class Solution:
 
         return is_good
 
+# Time Complexity O(n)
 
 sol = Solution()
 text = "(){}}{"
