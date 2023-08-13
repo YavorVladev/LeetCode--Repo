@@ -31,6 +31,8 @@ class Solution:
                 index += diff
         return answer
 
+#     Time Complexity O(n)
+
 
 sol = Solution()
 given_string = "PAHNAPLSIIGYIR"
