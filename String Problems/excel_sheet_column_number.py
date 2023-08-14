@@ -52,6 +52,8 @@ class Solution:
 #
 #         return answer
 
+# Time Complexity O(n)
+
 
 sol = Solution()
 columnTitle = "A"
