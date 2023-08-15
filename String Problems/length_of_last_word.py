@@ -18,6 +18,8 @@ class Solution:
         s = s.split()[-1]
         return len(s)
 
+#     Time Complexity O(1)
+
 
 sol = Solution()
 text = "   fly me   to   the moon  "
