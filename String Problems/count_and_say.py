@@ -58,3 +58,5 @@ class Solution:
                 res = new_res
                 n -= 1
             return new_res
+
+# Time Complexity O(n)
