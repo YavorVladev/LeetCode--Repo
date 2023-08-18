@@ -59,4 +59,10 @@ class Solution:
                 n -= 1
             return new_res
 
+
 # Time Complexity O(n)
+
+sol = Solution()
+n = 4
+res = sol.countAndSay(n)
+print(res)
