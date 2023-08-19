@@ -66,3 +66,8 @@ sol = Solution()
 n = 4
 res = sol.countAndSay(n)
 print(res)
+
+sol1 = Solution()
+n = 7
+res = sol.countAndSay(n)
+print(res)
