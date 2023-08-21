@@ -22,4 +22,6 @@
 
 class Solution:
     def maxCount(self, m: int, n: int, ops: list[list[int]]) -> int:
-        return min([op[0] for op in ops] + [m])*min([op[1] for op in ops] + [n])
+        return min([op[0] for op in ops] + [m]) * min([op[1] for op in ops] + [n])
+
+# Time Complexity O(n)
