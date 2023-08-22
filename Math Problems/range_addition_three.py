@@ -24,4 +24,13 @@ class Solution:
     def maxCount(self, m: int, n: int, ops: list[list[int]]) -> int:
         return min([op[0] for op in ops] + [m]) * min([op[1] for op in ops] + [n])
 
+
 # Time Complexity O(n)
+
+
+sol = Solution()
+m = 3
+n = 3
+ops = [[2, 2], [3, 3]]
+res = sol.maxCount(m, n, ops)
+print(res)
