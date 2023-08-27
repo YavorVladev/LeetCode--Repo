@@ -52,3 +52,5 @@ class Solution:
             numerator %= denominator
         return "".join(res) if not neg else "-" + "".join(res)
 
+#     Time Complexity O(n)
+
