@@ -23,3 +23,5 @@ for statement in range(n):
                 total_score -= 1
 
 print(total_score)
+
+# Time Complexity O(n)
