@@ -35,3 +35,5 @@ class Solution:
 
         gcd_of_j1_and_j2 = math.gcd(jug1Capacity, jug2Capacity)
         return targetCapacity % gcd_of_j1_and_j2 == 0
+
+# Time Complexity O(1)
