@@ -55,3 +55,5 @@ class Solution:
             for idx in range(len(points))
         )
         return result
+
+#     Time Complexity O(n)
