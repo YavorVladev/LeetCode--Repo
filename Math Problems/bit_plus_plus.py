@@ -43,3 +43,5 @@ for statement in range(n):
 print(total_score)
 
 # Time Complexity O(n)
+
+# Different Solution ( coming soon )
