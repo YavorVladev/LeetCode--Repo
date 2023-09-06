@@ -44,4 +44,16 @@ print(total_score)
 
 # Time Complexity O(n)
 
-# Different Solution ( coming soon )
+# MORE OPTIMISED SOLUTION
+
+# program = ["++X", "X--", "++X", "--X"]
+# x = 0
+#
+# for statement in program:
+#     if "++" in statement:
+#         x += 1
+#     elif "--" in statement:
+#         x -= 1
+#
+# print("Final value of x:", x)
+
