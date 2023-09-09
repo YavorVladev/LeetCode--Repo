@@ -42,3 +42,10 @@ class Solution:
         return dp[len(s)][len(p)]
 
     # Time Complexity O(n^2)
+
+sol = Solution()
+s = "cb"
+p = "?a"
+res = sol.isMatch(s, p)
+print(res)
+
