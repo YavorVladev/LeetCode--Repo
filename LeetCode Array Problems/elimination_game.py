@@ -41,4 +41,10 @@ class Solution:
             n = n >> 1
         return first
 
-    
+
+sol = Solution()
+n = 9
+res = sol.lastRemaining(n)
+print(res)
+
+
