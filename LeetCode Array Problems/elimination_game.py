@@ -41,6 +41,8 @@ class Solution:
             n = n >> 1
         return first
 
+#     SECOND SOLUTION COMING SOON
+
 
 sol = Solution()
 n = 9
