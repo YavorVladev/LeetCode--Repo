@@ -24,6 +24,8 @@ class Solution:
             if s.count(ch) != t.count(ch):
                 return ch
 
+#             Time Complexity O(n)
+
 
 sol = Solution()
 s = "abcd"
