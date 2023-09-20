@@ -49,4 +49,11 @@ class Solution:
         ans = []
         self.solve(ans, "", 0, s, 0)
         return ans
+
+
 #     Time Complexity O(n)
+
+sol = Solution()
+s = "101023"
+res = sol.restoreIpAddresses(s)
+print(res)
