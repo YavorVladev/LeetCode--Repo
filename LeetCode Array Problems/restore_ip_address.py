@@ -53,6 +53,8 @@ class Solution:
 
 #     Time Complexity O(n)
 
+# SECOND SOLUTION COMING SOON
+
 sol = Solution()
 s = "101023"
 res = sol.restoreIpAddresses(s)
