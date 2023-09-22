@@ -55,6 +55,25 @@ class Solution:
 
 # SECOND SOLUTION COMING SOON
 
+
+
+# def restore_ip_addresses(s):
+#     def backtrack(start, path):
+#         if len(path) == 4:
+#             if start == len(s):
+#                 valid_ips.append(".".join(path))
+#             return
+#
+#         for i in range(1, 4):
+#             if start + i <= len(s):
+#                 segment = s[start:start+i]
+#                 if (segment[0] != '0' or segment == '0') and int(segment) <= 255:
+#                     backtrack(start + i, path + [segment])
+#
+#     valid_ips = []
+#     backtrack(0, [])
+#     return valid_ips
+
 sol = Solution()
 s = "101023"
 res = sol.restoreIpAddresses(s)
