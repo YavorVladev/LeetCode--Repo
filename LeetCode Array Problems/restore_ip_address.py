@@ -74,6 +74,8 @@ class Solution:
 #     backtrack(0, [])
 #     return valid_ips
 
+#     Time Complexity O(n)
+
 sol = Solution()
 s = "101023"
 res = sol.restoreIpAddresses(s)
