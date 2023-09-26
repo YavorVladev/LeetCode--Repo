@@ -24,3 +24,5 @@ class Solution:
         while num % 3 == 0: num /= 3
         while num % 2 == 0: num /= 2
         return num == 1
+
+#     Time Complexity O(1)
