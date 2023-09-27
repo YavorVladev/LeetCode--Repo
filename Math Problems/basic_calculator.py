@@ -39,3 +39,9 @@ class Solution:
         return helper('(' + expression + ')', 0)[0]
 
 #     Time Complexity O(n)
+
+
+sol = Solution()
+exp = "(1+(4+5+2)-3)+(6+8)"
+res = sol.calculate(exp)
+print(res)
