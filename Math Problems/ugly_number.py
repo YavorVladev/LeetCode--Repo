@@ -26,3 +26,8 @@ class Solution:
         return num == 1
 
 #     Time Complexity O(1)
+
+sol = Solution()
+n = 14
+res = sol.isUgly(n)
+print(res)
