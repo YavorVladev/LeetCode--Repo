@@ -27,6 +27,9 @@ class Solution:
 
 #     Time Complexity O(1)
 
+
+# Second Solution Coming Soon
+
 sol = Solution()
 n = 14
 res = sol.isUgly(n)
