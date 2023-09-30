@@ -30,6 +30,8 @@ class Solution:
 
 # Second Solution Coming Soon
 
+
+
 sol = Solution()
 n = 14
 res = sol.isUgly(n)
