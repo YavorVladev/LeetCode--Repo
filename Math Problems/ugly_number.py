@@ -32,6 +32,8 @@ class Solution:
 
 
 
+
+
 sol = Solution()
 n = 14
 res = sol.isUgly(n)
