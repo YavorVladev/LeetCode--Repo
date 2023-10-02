@@ -54,3 +54,10 @@ class Solution:
 
 #     Time Complexity O(n)
 
+sol = Solution()
+num = 1
+dom = 2
+res = sol.fractionToDecimal(num, dom)
+print(res)
+
+
