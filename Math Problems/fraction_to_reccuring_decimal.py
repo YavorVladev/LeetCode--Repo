@@ -58,6 +58,49 @@ class Solution:
 
 # SECOND SOLUTION COMING SOON
 
+
+
+
+# def fractionToDecimal(numerator, denominator):
+#     if numerator == 0:
+#         return "0"
+#
+#     result = []
+#
+#     # Handle the sign
+#     if (numerator < 0) ^ (denominator < 0):
+#         result.append("-")
+#
+#     numerator = abs(numerator)
+#     denominator = abs(denominator)
+#
+#     # Calculate the integer part
+#     result.append(str(numerator // denominator))
+#
+#     # Calculate the fractional part
+#     remainder = numerator % denominator
+#     if remainder == 0:
+#         return ''.join(result)
+#
+#     result.append(".")
+#     fraction_part = []
+#     seen_remainders = {}
+#
+#     while remainder != 0:
+#         if remainder in seen_remainders:
+#             # Repeating pattern detected
+#             start_repeat_index = seen_remainders[remainder]
+#             non_repeat_part = fraction_part[:start_repeat_index]
+#             repeat_part = fraction_part[start_repeat_index:]
+#             return ''.join(result) + ''.join(non_repeat_part) + "(" + ''.join(repeat_part) + ")"
+#
+#         seen_remainders[remainder] = len(fraction_part)
+#         remainder *= 10
+#         fraction_part.append(str(remainder // denominator))
+#         remainder %= denominator
+#
+#     return ''.join(result) + ''.join(fraction_part)
+
 sol = Solution()
 num = 1
 dom = 2
