@@ -101,6 +101,9 @@ class Solution:
 #
 #     return ''.join(result) + ''.join(fraction_part)
 
+
+
+
 sol = Solution()
 num = 1
 dom = 2
