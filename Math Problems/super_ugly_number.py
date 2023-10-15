@@ -59,6 +59,7 @@ class Solution:
 #                 if p % prime == 0:
 #                     break
 #         return p
+#         return p
 
 sol = Solution()
 number = 12
