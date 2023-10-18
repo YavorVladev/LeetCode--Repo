@@ -62,6 +62,8 @@ class Solution:
 #         return p
 #         return p
 
+# Time Complexity O(n)
+
 sol = Solution()
 number = 12
 primes = [2, 7, 13, 19]
